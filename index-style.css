@@ -1,0 +1,18 @@
+/*
+    Document   : index-style.css
+    Created on : 2015-09-02 04:33 PM
+    Author     : lupitaswag123
+    Description:
+    Purpose of the stylesheet follows.
+    To change this template use Tools | Templates.
+*/
+ body {
+    background-image: url ("http://backgroundsbase.com/wp-content/uploads/2014/11/tumblr-background-water-picture.jpg")
+}
+#welcome {
+    text-align:center;
+}
+
+#links{
+    text-align:center;
+}
