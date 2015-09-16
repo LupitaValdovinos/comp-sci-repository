@@ -5,22 +5,47 @@ To change this template use Tools | Templates.
 <html>
 <head>
     <title>About this class</title>
+       <link rel="stylesheet" type="text/css" href="index-style.css">
     <div id="img">
       <img src="http://siliconschools.com/wp-content/uploads/2012/09/summitlogo1.png">
     </div>
-    <h2>This class</h2>
 </head>
-   <body>
        <style>
            body{
                background-image: url(http://img1.findthebest.com/sites/default/files/2307/media/images/Lilac_429420_i0.png);
            }
             h2{
              text-align:center;
-            font-size:98px;
-            color:white    
+            font-size:80px;
+            color:white 
+        }
+            #links li{
+            Display:inline;
+            text-decoration:none;
+            padding:20px;
+            width:550px;
+            border-style:solid;
+            border-color:White
+        }
+        #links a{
+            text-decoration:none;
+            color:purple
+        }
+        .navbar{
+            color:white;
+            text-align:center;
         }
        </style>
-
+   <body>
+       <h2>Computer Science</h2>
+       <div id="links">
+        <ul>
+            <li><a href="aboutme.html">About Me</a></li>
+            <li class="navbar"><a href="thisclass.html">This class</a></li>
+            <li class="navbar"><a href="codinglanguages.html">Coding Languages</a></li>
+            <li class="navbar"><a href="hardware.html">Hardware</a></li>
+            <li class="navbar"> <a href="index.html">Welcome</a></li>
+        </ul>
+    </div>
 </body>
 </html>
