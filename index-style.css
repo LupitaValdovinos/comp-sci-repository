@@ -22,7 +22,13 @@
     bottom:200px;
 }
 #computer{
-    left:90px;
+    left:10px;
     position:relative;
-    bottom:900px;
+    bottom:200px;
 }
+#laptop{
+    width:600px;
+    position:relative;
+    top:100px;
+}
+
