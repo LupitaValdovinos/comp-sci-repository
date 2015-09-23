@@ -29,6 +29,46 @@
 #laptop{
     width:600px;
     position:relative;
-    top:100px;
+    top:-10px;
+}
+#keyboard{
+    width:600px;
+    position:relative;
+    top:-10px;
+}
+#mouse{
+    width:600px;
+    position:relative;
+    top:-10px;
+}
+#monitor{
+    width:600px;
+    position:relative;
+    top:-10px;
+}
+#mother{
+    width:600px;
+    position:relative;
+    top:-10px;
+}
+#cpu{
+   width:600px;
+    position:relative;
+    top:-10px; 
+}
+#ram{
+    width:600px;
+    position:relative;
+    top:-10px;
+}
+#hard{
+    width:600px;
+    position:relative;
+    top:-10px;
+}
+#taken{
+    width:600px;
+    position:relative;
+    top:-10px;
 }
 
