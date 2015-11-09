@@ -1,0 +1,74 @@
+/*
+    Document   : index-style.css
+    Created on : 2015-09-02 04:33 PM
+    Author     : lupitaswag123
+    Description:
+    Purpose of the stylesheet follows.
+    To change this template use Tools | Templates.
+*/
+ body {
+    background-image: url ("http://backgroundsbase.com/wp-content/uploads/2014/11/tumblr-background-water-picture.jpg")
+}
+#welcome {
+    text-align:center;
+}
+
+#links{
+    text-align:center;
+}
+#about{
+    left:90px;
+    position:relative;
+    bottom:200px;
+}
+#computer{
+    left:10px;
+    position:relative;
+    bottom:200px;
+}
+#laptop{
+    width:600px;
+    position:relative;
+    top:-10px;
+}
+#keyboard{
+    width:600px;
+    position:relative;
+    top:-10px;
+}
+#mouse{
+    width:600px;
+    position:relative;
+    top:-10px;
+}
+#monitor{
+    width:600px;
+    position:relative;
+    top:-10px;
+}
+#mother{
+    width:600px;
+    position:relative;
+    top:-10px;
+}
+#cpu{
+   width:600px;
+    position:relative;
+    top:-10px; 
+}
+#ram{
+    width:600px;
+    position:relative;
+    top:-10px;
+}
+#hard{
+    width:600px;
+    position:relative;
+    top:-10px;
+}
+#taken{
+    width:600px;
+    position:relative;
+    top:-10px;
+}
+
