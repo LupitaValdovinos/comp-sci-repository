@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<title>Calculator</title>
+</head>
+<body background="http://cf067b.medialib.glogster.com/media/11/113b3703e3348b7745dc26497ae28e5c038641ddb8a67f1601678bbc74fe2e0b/math-background.jpg">
+    
+<input type ="text" name="input1" style="width:50px;" id="input1">
+    <select id="dropdown">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="x">x</option>
+        <option value="/">/</option>
+    </select>
+    <input type ="text" name="input2" style="width:50px;" id="input2">
+    <input type="button" value="Calculate" id="submitButton" />
+
+    <p style="color:white">The answer is: <span id="display"></span></p>
+    <div id="links">
+        <ul>
+            <li><a href="thisclass.html">This Class</a></li>
+            <li class="navbar"><a href="aboutme.html">About Me</a></li>
+            <li class="navbar"><a href="codinglanguages.html">Coding Languages</a></li>
+            <li class="navbar"><a href="hardware.html">Hardware</a></li>
+            <li class="navbar"><a href="index.html">Welcome</a></li>
+            <li class="navbar"><a href="info.html">Favorite Artist</a></li>
+            <li class="navbar"><a href="calc.html">Claculator</a></li>
+            <li class="navbar"><a href="todolist.html">To do list</a></li>
+        </ul>
+    </div>
+    
+<script src="calc.js" ></script>
+
+</body>
+<style>
+#links{
+  position:relative;
+  top:50px;
+}
+    #links li{
+            Display:inline;
+            text-decoration:none;
+            padding:10px;
+            width:550px;
+            border-style:solid;
+            border-color:White
+        }
+        #links a{
+            text-decoration:none;
+            color:white;
+        }
+        .navbar{
+            color:white;
+            text-align:center;
+        }
+</style>
+</html>

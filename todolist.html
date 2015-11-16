@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>To do List</title>
+</head>
+<body background="http://hdwallpaperrules.com/wp-content/uploads/2015/01/Abstract-dark-screen-wide-388x276.jpg">
+  <header>
+    <h1>TO DO LIST</h1>
+    <h3>Click what type of text decoration you want :)</h3>
+  </header>
+  <section>
+    <div id="todolist"></div>
+    <form id="myform">
+      <div id="bar">
+        <div>Add item</div>
+        <input type="text" id="newitem"/>
+        <select id="dropdown">
+        <option value="underline">underline</option>
+        <option value="bold">bold</option>
+        <option value="white">white</option>
+        <option value="red">red</option>
+    </select>
+        <input type="submit" />
+      </div>
+    </form>
+  </section>
+  <footer>
+  </footer>
+  <div id="links">
+    <ul>
+            <li><a href="thisclass.html">This Class</a></li>
+            <li class="navbar"><a href="aboutme.html">About Me</a></li>
+            <li class="navbar"><a href="codinglanguages.html">Coding Languages</a></li>
+            <li class="navbar"><a href="hardware.html">Hardware</a></li>
+            <li class="navbar"><a href="index.html">Welcome</a></li>
+            <li class="navbar"><a href="info.html">Favorite Artist</a></li>
+            <li class="navbar"><a href="calc.html">Calculator</a></li>
+            <li class="navbar"><a href="todolist.html">To do list</a></li>
+        </ul>
+    </div> 
+    
+<script src="todolist.js"></script>
+</body>
+<style>
+#links{
+  position:relative;
+  top:50px;
+  
+}
+  #links li{
+            Display:inline;
+            text-decoration:none;
+            padding:20px;
+            width:550px;
+            border-style:solid;
+            border-color:white;
+        }
+        #links a{
+            text-decoration:none;
+            color:white;
+        }
+        .navbar{
+            color:white;
+            text-align:center;
+        }
+    h1{
+      text-align:center;
+      color:White;
+      font-family:Cursive;
+    }
+    #bar{
+      text-align:center;
+      color:pink;
+      font-family:cursive;
+    }
+    #text{
+      text-align:center;
+      position:relative;
+      top:30px;
+    }
+    #todolist{
+      font-size:20px;
+      color:pink;
+      text-align:center;
+      font-family:cursive;
+    }
+    body{
+      background-size:4890px;
+    }
+    h3{
+      color:yellow;
+      text-align:center;
+      font-family:cursive;
+    }
+</style>
+</html>
