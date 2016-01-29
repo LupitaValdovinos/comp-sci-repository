@@ -11,14 +11,17 @@ function doMath() {
     if  (dropdown.value == "+"){
         answer = parseInt(input1.value) + parseInt(input2.value);
         display.innerHTML = answer;
-    }else if (dropdown.value == "-"){
+    }if (dropdown.value == "-"){
         answer = parseInt(input1.value) - parseInt(input2.value);
         display.innerHTML = answer;
-    }else if (dropdown.value == "x"){
+    }if (dropdown.value == "x"){
         answer = parseInt(input1.value) * parseInt(input2.value);
         display.innerHTML = answer;
-    }else if (dropdown.value == "/"){
+    }if (dropdown.value == "/"){
         answer = parseInt(input1.value) / parseInt(input2.value);
+        display.innerHTML = answer;
+    } if (dropdown.value == "^"){
+        answer = Math.pow(parseInt(input1.value), parseInt(input2.value));
         display.innerHTML = answer;
     }
 }

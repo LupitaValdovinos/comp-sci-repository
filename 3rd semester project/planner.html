@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>PLanner</title>
+  <link rel="stylesheet" href="planner.css" type="text/css" />
+</head>
+
+<body background="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSH5PcKjEqR7rXeL35mCP92lB6NPsQHt71mgohKxzYYBrW8v5rP">
+  <header>
+    <h1 id="border">PLANNER!</h1>
+    <h3>Click what type of text decoration you want and a category :)</h3>
+  </header>
+  <section>
+    
+    <form id="myform">
+      <div id="bar">
+        <div id="planner"></div>
+        <div>Add item</div>
+        <input type="text" id="newitem" />
+        <select id="dropdown">
+          <option value="underline">underline</option>
+          <option value="bold">bold</option>
+          <option value="white">white</option>
+          <option value="red">red</option>
+        </select>
+        <select id="dropdown">
+          <option value="grocery">grocery</option>
+          <option value="scool">school</option>
+          <option value="sports">sports</option>
+        </select>
+          
+        <input type="submit" />
+        <br>
+        <div id="grocery" style="display: inline-block" class="categoryborder"><br>Grocery</br></div>
+        <div id="sports" style="display: inline-block" class="categoryborder"><br>Sports</br></div>
+        <div id="school" style="display: inline-block" class="categoryborder"><br>School</br></div>
+    </form>
+  </section>
+  <footer>
+  </footer>
+
+
+  <script src="planner.js"></script>
+</body>
+
+</html>
