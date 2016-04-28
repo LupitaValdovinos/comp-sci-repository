@@ -8,6 +8,7 @@ var form = document.getElementById('myform'),
     dropdown = document.getElementById('dropdown'),
     dropdown2 = document.getElementById('dropdown2');    
 
+ //This code is for the options for the text decorations.
 form.addEventListener( 'submit', function(evt) {
   var text = field.value;
   if(dropdown.value == "underline"){
@@ -25,7 +26,8 @@ form.addEventListener( 'submit', function(evt) {
   evt.preventDefault();
 }, false);
 
-
+//this code is for when the user presses on the task they completed it puts a line through it. Representing that they completed this task.
+//This code also makes the task that the user put disappear if pressen on twice.
 todo.addEventListener( 'click', function(evt) {
   var tar = evt.target;
   
@@ -38,7 +40,7 @@ todo.addEventListener( 'click', function(evt) {
   evt.preventDefault();
 }, false)
 
-
+//This code is for the type of sections of the to do lists. This code wroks as the user chooses a type of category they want.
 form.addEventListener('submit', function(evt){
 
 var text = field.value;
@@ -54,7 +56,7 @@ else if(dropdown2.value == "school"){
   evt.preventDefault();
 }, false);
 
-
+//This code is to cross out the task that the users put and make it dissapear in when clicked twice.
 grocerySection.addEventListener( 'click', function(evt) {
   var tar = evt.target;
   
@@ -66,7 +68,7 @@ grocerySection.addEventListener( 'click', function(evt) {
   }
   evt.preventDefault();
 }, false)
-
+//This is also my code for when you click the subject in your to do list it will dissapear.
 schoolSection.addEventListener( 'click', function(evt) {
   var tar = evt.target;
   
@@ -79,7 +81,7 @@ schoolSection.addEventListener( 'click', function(evt) {
   evt.preventDefault();
 }, false)
 
-
+//This is also my code for when you click the subject in your to do list it will dissapear.
 sportSection.addEventListener( 'click', function(evt) {
   var tar = evt.target;
   
